@@ -1,0 +1,13 @@
+name: some
+
+num_target_views_train: 1
+num_context_views_train: 3
+num_target_views_test: 3
+num_context_views_test: 3
+
+num_context_views: 3 # for mvsplat original code
+
+dtu_train_path: config/dataset/view_sampler/somedatasets/dtu_train_all.txt
+dtu_test_path: config/dataset/view_sampler/somedatasets/dtu_test_all.txt
+dtu_pairs_path: config/dataset/view_sampler/somedatasets/dtu_pairs.txt
+test_pairs_path: config/dataset/view_sampler/somedatasets/pairs.th
